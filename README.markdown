@@ -17,4 +17,3 @@ One group calculates the loss of the *inter-class*, another calculates that of t
 If you utilize our loss function on your task, you can adopt a 4-stream siamese structure or slice operation.
 
 
-$$h(\theta)=\sum_{j=0}^n \theta_jx_j$$
