@@ -6,7 +6,7 @@ The implementation of PairLoss in [When Deep Learning Meets Metric Learning: Rem
 
 As is define in our paper,  our PairLoss function:
 
-$$ J_{2}(X, W, B) = \sum_{i,j} max(0, (0.05 - y_{i,j} (\tau - ||O_{L}(x_{i})-O_{L}(x_{j})||_{2}^2)))
+$$J_{2}(X, W, B) = \sum_{i,j} max(0, (0.05 - y_{i,j}(\tau-||O_{L}(x_{i})-O_{L}(x_{j})||^2_{2})))$$
 
 where $y_{i,j}=\begin{cases} +1 & y_{i} = y_{j} \\-1 & y_{i} \not = y_{j} \\\end{cases}$.
 
