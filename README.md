@@ -21,6 +21,8 @@ If you utilize our loss function on your task, you can adopt a 4-stream siamese 
 
 ## Citation
 '''
+hello world
+'''
 @article{cheng2018deep,
   title={When Deep Learning Meets Metric Learning: Remote Sensing Image Scene Classification via Learning Discriminative CNNs},
   author={Cheng, Gong and Yang, Ceyuan and Yao, Xiwen and Guo, Lei and Han, Junwei},
@@ -28,5 +30,5 @@ If you utilize our loss function on your task, you can adopt a 4-stream siamese 
   year={2018},
   publisher={IEEE}
 }
-'''
+
 
