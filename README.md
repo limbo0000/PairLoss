@@ -7,8 +7,6 @@ The implementation of PairLoss in [When Deep Learning Meets Metric Learning: Rem
 ## Compiling
 You can follow these tutorial [Caffe](http://caffe.berkeleyvision.org/) and [link](https://zhuanlan.zhihu.com/p/25484850) to compile your own caffe.
 
-## Detail
-
 As is define in our paper,  our PairLoss function:
 
 $$J_{2}(X, W, B) = \sum_{i,j} max(0, (0.05 - y_{i,j} (\tau - ||O_{L}(x_i)-O_{L}(x_j)||_{2}^2)))$$
